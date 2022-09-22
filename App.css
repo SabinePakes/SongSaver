@@ -1,0 +1,166 @@
+/* body */
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 500px;
+  margin-top: 50px;
+}
+
+.App {
+  border-radius: none;
+}
+
+.inputs--container {
+  height: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 50px 50px 0 0;
+  background: cadetblue;
+}
+.first-input {
+  border-top-left-radius: 20px;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 2px;
+}
+
+#dropDown-1,
+#dropDown,
+.submite-button {
+  border: none;
+  margin: 2px;
+}
+.sort-button {
+  border:none;
+  margin: 2px;
+}
+
+.song-header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 13rem;
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+  font-size: 30px;
+}
+.inputs--container {
+  display: flex;
+  justify-content: center;
+}
+
+.song-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color:black;
+  border-radius: 0 0 50px 50px;
+}
+
+.song-list-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: black 1px solid;
+}
+
+#root .song-list-items:last-child {
+  border-radius: 0px 0px 50px 50px;
+}
+
+.labels {
+  width: 100px;
+  max-height: auto;
+  background:cadetblue;
+  word-wrap: break-word;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.delete-song {
+  position: relative;
+  top: 15px;
+  width: 120px;
+  max-height: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 20px 10px;
+  box-shadow: 3px 3px 3px;
+  background-color: red;
+  font-size: 1.25rem;
+}
+
+.delete-song:hover {
+  background-color: white;
+}
+
+.delete-song:active {
+  background-color:darkgreen;
+  box-shadow: 1px 1px 1px;
+}
+
+.playlist {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.playlist h1 {
+  background-color: darkgreen;
+  line-height: 5rem;
+}
+/* .home-nav, .about-nav */
+.home-nav,
+.about-nav {
+  background-color: red;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 80px;
+  margin: 0 20px;
+  padding: 5px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 20px 10px;
+  box-shadow: 3px 3px 3px;
+  color: black;
+}
+
+.home-nav:hover,
+.about-nav:hover {
+  background-color: white;
+}
+.home-nav:active,
+.about-nav:active {
+  background-color:darkcyan;
+  box-shadow: 1px 1px 1px;
+}
+
+.my-para {
+  margin: 5px;
+}
+
+.about-wrapper-1 {
+  background-color: black;
+  border-radius: 60px;
+  padding: 1rem 4rem 3rem 4rem;
+  font-size: 1.1rem;
+  margin-top: 18px;
+  box-shadow: 5px 5px 20px 10px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.about-wrapper-2 {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 600px;
+  gap: 1px;
+
+}
